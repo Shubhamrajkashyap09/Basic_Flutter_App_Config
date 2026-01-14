@@ -1,0 +1,11 @@
+DEV RUN:
+flutter run --flavor=dev -t lib/main_dev.dart --dart-define=app.flavor=dev
+
+DEV BUILD:
+flutter build apk --flavor=dev -t lib/main_dev.dart --dart-define=app.flavor=dev
+
+PROD RUN:
+flutter run --flavor=prod -t lib/main_prod.dart --dart-define=app.flavor=prod
+
+PROD BUILD:
+flutter build apk --flavor=prod -t lib/main_prod.dart --dart-define=app.flavor=prod
