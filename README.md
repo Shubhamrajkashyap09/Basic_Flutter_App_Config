@@ -25,7 +25,7 @@
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone git@github.com:Shubhamrajkashyap09/Basic_Flutter_App_Config.git
 
 # Navigate to project directory
 cd notification_test_app
@@ -41,11 +41,13 @@ flutter pub get
 ### 🔧 Development (dev)
 
 **Run:**
+
 ```bash
 flutter run --flavor=dev -t lib/main_dev.dart --dart-define=app.flavor=dev
 ```
 
 **Build APK:**
+
 ```bash
 flutter build apk --flavor=dev -t lib/main_dev.dart --dart-define=app.flavor=dev
 ```
@@ -53,11 +55,13 @@ flutter build apk --flavor=dev -t lib/main_dev.dart --dart-define=app.flavor=dev
 ### 🚀 Production (prod)
 
 **Run:**
+
 ```bash
 flutter run --flavor=prod -t lib/main_prod.dart --dart-define=app.flavor=prod
 ```
 
 **Build APK:**
+
 ```bash
 flutter build apk --flavor=prod -t lib/main_prod.dart --dart-define=app.flavor=prod
 ```
@@ -66,10 +70,10 @@ flutter build apk --flavor=prod -t lib/main_prod.dart --dart-define=app.flavor=p
 
 ## 📚 Dependencies
 
-| Package | Version | Purpose |
-|---------|---------|----------|
+| Package                     | Version  | Purpose                        |
+| --------------------------- | -------- | ------------------------------ |
 | `firebase_in_app_messaging` | ^0.7.4+8 | Firebase messaging integration |
-| `cupertino_icons` | ^1.0.2 | iOS-style icons |
+| `cupertino_icons`           | ^1.0.2   | iOS-style icons                |
 
 ---
 
