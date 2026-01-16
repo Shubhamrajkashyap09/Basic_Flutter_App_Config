@@ -3,9 +3,9 @@
 
     <application
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/prod_logo"
         android:label="notification_test_app"
-        tools:replace="android:label">
+        tools:replace="android:label,android:icon">
 
         <activity
             android:name=".MainActivity"
