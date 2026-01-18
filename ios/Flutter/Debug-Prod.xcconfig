@@ -1,0 +1,7 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
+#include "Generated.xcconfig"
+
+// Prod flavor configuration
+PRODUCT_BUNDLE_IDENTIFIER = com.example.notificationTestApp.prod
+PRODUCT_NAME = Notification Test App Prod
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon-Prod

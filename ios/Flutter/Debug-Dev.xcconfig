@@ -3,5 +3,5 @@
 
 // Dev flavor configuration
 PRODUCT_BUNDLE_IDENTIFIER = com.example.notificationTestApp.dev
-PRODUCT_NAME = MyApp Dev
+PRODUCT_NAME = Notification Test App Dev
 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon-Dev

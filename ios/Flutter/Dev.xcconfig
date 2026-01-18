@@ -1,0 +1,6 @@
+#include "Generated.xcconfig"
+
+// Dev flavor configuration
+PRODUCT_BUNDLE_IDENTIFIER = $(DART_DEFINES:PRODUCT_BUNDLE_IDENTIFIER=com.example.notificationTestApp.dev)
+PRODUCT_NAME = $(DART_DEFINES:PRODUCT_NAME=Notification Test App Dev)
+ASSETCATALOG_COMPILER_APPICON_NAME = $(DART_DEFINES:ASSETCATALOG_COMPILER_APPICON_NAME=AppIcon-Dev)
